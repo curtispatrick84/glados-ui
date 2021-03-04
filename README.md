@@ -27,9 +27,5 @@ npm install -g yarn brunch
 ## Starting the GLaDOS UI
 
 ```
-$ yarn start
-yarn run v1.22.10
-$ brunch watch --server
-15:41:29 - info: application started on http://127.0.0.1:8600/
-15:41:29 - info: compiled 16 files into 2 files, copied 4 in 1.6 sec
+yarn start
 ```
