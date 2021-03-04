@@ -29,3 +29,23 @@ npm install -g yarn brunch
 ```
 yarn start
 ```
+
+Open http://localhost:8600/
+
+## BONUS: building and running as a Docker container
+
+https://docs.docker.com/docker-for-mac/install/
+
+```
+# Ignore the build warnings :-)
+docker build -t glados .
+docker run -d -p 8600:8600 --name glados glados:latest
+```
+
+Open http://localhost:8600/
+
+When you are finished:
+
+```
+docker rm -vf glados
+```
